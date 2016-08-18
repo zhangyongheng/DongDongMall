@@ -1,10 +1,10 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/back_page/head.jsp" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>babasport-add</title>
+
+<title>咚咚商城-add</title>
 <style type="">
 .h2_ch a:hover, .h2_ch a.here {
     color: #FFF;
@@ -20,7 +20,7 @@
     font-size: 14px;
     font-weight: normal;
     border: 1px solid #C5C5C5;
-    background: url('/res/itcast/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
+    background: url('/res/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
 }
 a {
     color: #06C;
@@ -93,7 +93,7 @@ $(function(){
 						商品品牌:</td><td width="80%" class="pn-fcontent">
 						<select name="brandId">
 							<option value="">请选择品牌</option>
-							<option value="1">依琦莲</option>
+							<option value="1">花花公子</option>
 							<option value="2">凯速（KANSOON）</option>
 							<option value="3">梵歌纳（vangona）</option>
 						</select>
@@ -120,13 +120,13 @@ $(function(){
 					<td width="20%" class="pn-flabel pn-flabel-h">
 						<span class="pn-frequired">*</span>
 						颜色:</td><td width="80%" class="pn-fcontent">
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
-							<input type="checkbox" value="9" name="color"/>西瓜红
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
+							<input type="checkbox" value="9" name="color"/>蓝色
 					</td>
 				</tr>
 				<tr>

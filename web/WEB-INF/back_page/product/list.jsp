@@ -1,10 +1,10 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/back_page/head.jsp" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>babasport-list</title>
+
+<title>咚咚商城-list</title>
 <script type="text/javascript">
 function getTableForm() {
 	return document.getElementById('tableForm');
@@ -40,7 +40,7 @@ function changePageNo(){
 名称: <input type="text" onkeyup="changePageNo()" value="" name="name"/>
 	<select onchange="changePageNo()" name="brandId">
 		<option value="">请选择品牌</option>
-		<option value="1">依琦莲</option>
+		<option value="1">花花公子</option>
 		<option value="2">凯速（KANSOON）</option>
 	</select>
 	<select onchange="changePageNo()" name="isShow">
@@ -70,7 +70,7 @@ function changePageNo(){
 		<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 			<td><input type="checkbox" name="ids" value="73"/></td>
 			<td>20141028114510003</td>
-			<td align="center">依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
+			<td align="center">花花公子男士长袖衬衫款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
 			<td align="center"><img width="50" height="50" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center">是</td>
 			<td align="center">是</td>
@@ -83,7 +83,7 @@ function changePageNo(){
 		<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 			<td><input type="checkbox" name="ids" value="73"/></td>
 			<td>20141028114411609</td>
-			<td align="center">依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
+			<td align="center">花花公子男士长袖衬衫款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
 			<td align="center"><img width="50" height="50" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center">否</td>
 			<td align="center">是</td>
@@ -96,7 +96,7 @@ function changePageNo(){
 		<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 			<td><input type="checkbox" name="ids" value="73"/></td>
 			<td>20141028114409502</td>
-			<td align="center">依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
+			<td align="center">花花公子男士长袖衬衫款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
 			<td align="center"><img width="50" height="50" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center">否</td>
 			<td align="center">是</td>
@@ -109,7 +109,7 @@ function changePageNo(){
 		<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 			<td><input type="checkbox" name="ids" value="73"/></td>
 			<td>20141028114407438</td>
-			<td align="center">依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
+			<td align="center">花花公子男士长袖衬衫款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
 			<td align="center"><img width="50" height="50" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center">否</td>
 			<td align="center">是</td>
@@ -122,7 +122,7 @@ function changePageNo(){
 		<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 			<td><input type="checkbox" name="ids" value="73"/></td>
 			<td>20141028114405217</td>
-			<td align="center">依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
+			<td align="center">花花公子男士长袖衬衫款 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色</td>
 			<td align="center"><img width="50" height="50" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center">否</td>
 			<td align="center">是</td>

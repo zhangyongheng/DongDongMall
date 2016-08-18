@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
@@ -11,11 +11,11 @@
 <meta http-equiv="description" content="This is my page">
 
 
-<title>新巴巴运动网-商品详情页</title>
+<title>咚咚商城-商品详情页</title>
 <link rel="stylesheet" href="/res/css/style.css" />
 <script src="/res/js/jquery.js"></script>
 <script type="text/javascript" src="/res/js/com.js"></script>
-<style type="text/css">
+<style>
 .changToRed {
 	border: 2px solid #e4393c;
 	padding: 2px 4px;
@@ -61,7 +61,7 @@ function buy(){
 	</p>
 	<ul class="r uls">
 		<li class="dev">
-			您好,欢迎来到新巴巴运动网！
+			您好,欢迎来到咚咚商城！
 		</li>
 	<li class="dev"><a href="javascript:void(0)" onclick="login()"  title="登陆">[登陆]</a></li>
 	<li class="dev"><a href="javascript:void(0)" onclick="register()" title="免费注册">[免费注册]</a></li>
@@ -86,45 +86,45 @@ function buy(){
 			<h3 title="最新加入的商品">最新加入的商品</h3>
 			<ul class="uls">
 				<li>
-					<a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
-					<img src="/res/img/pic/p50x50.jpg" alt="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
-					<p class="dt"><a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
+					<a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
+					<img src="/res/img/pic/p50x50.jpg" alt="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
+					<p class="dt"><a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
 					<p class="dd">
 						<b><var>¥128</var><span>x1</span></b>
 						<a href="javascript:void(0);" title="删除" class="del">删除</a>
 					</p>
 				</li>
 				<li>
-					<a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
-					<img src="/res/img/pic/p50x50.jpg" alt="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
-					<p class="dt"><a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
+					<a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
+					<img src="/res/img/pic/p50x50.jpg" alt="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
+					<p class="dt"><a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
 					<p class="dd">
 						<b><var>¥128</var><span>x1</span></b>
 						<a href="javascript:void(0);" title="删除" class="del">删除</a>
 					</p>
 				</li>
 				<li>
-					<a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
-					<img src="/res/img/pic/p50x50.jpg" alt="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
-					<p class="dt"><a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
+					<a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
+					<img src="/res/img/pic/p50x50.jpg" alt="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
+					<p class="dt"><a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
 					<p class="dd">
 						<b><var>¥128</var><span>x1</span></b>
 						<a href="javascript:void(0);" title="删除" class="del">删除</a>
 					</p>
 				</li>
 				<li>
-					<a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
-					<img src="/res/img/pic/p50x50.jpg" alt="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
-					<p class="dt"><a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
+					<a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
+					<img src="/res/img/pic/p50x50.jpg" alt="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
+					<p class="dt"><a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
 					<p class="dd">
 						<b><var>¥128</var><span>x1</span></b>
 						<a href="javascript:void(0);" title="删除" class="del">删除</a>
 					</p>
 				</li>
 				<li>
-					<a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
-					<img src="/res/img/pic/p50x50.jpg" alt="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
-					<p class="dt"><a href="#" title="依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">依琦莲2014瑜伽服套装新 瑜珈健身服三件套 广场舞蹈服装 女瑜伽服送胸垫 长袖紫色 M全场支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
+					<a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">
+					<img src="/res/img/pic/p50x50.jpg" alt="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元" /></a>
+					<p class="dt"><a href="#" title="花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元">花花公子男士长袖衬衫 花花公子男士长袖衬衫经典秋季长袖印花时尚商务棉衬衣85325支持货到付款 全网最低价 千人超高好评瑜伽服赶紧抢！全五分好评截图联系客服还返现五元</a></p>
 					<p class="dd">
 						<b><var>¥128</var><span>x1</span></b>
 						<a href="javascript:void(0);" title="删除" class="del">删除</a>
@@ -147,16 +147,16 @@ function buy(){
 	</div>
 	<div class="r" style="width: 640px">
 		<ul class="uls form">
-			<li><h2>依琦莲2014瑜伽服套装新款 瑜珈健身服三件套 广场舞蹈服装 性价比最高的瑜伽服 三件套 送胸垫 支持货到付款</h2></li>
+			<li><h2>花花公子男士长袖衬衫款 经典秋季长袖印花时尚商务棉衬衣85325</h2></li>
 			<li><label>巴  巴 价：</label><span class="word"><b class="f14 red mr">￥128.00</b>(市场价:<del>￥150.00</del>)</span></li>
 			<li><label>商品评价：</label><span class="word"><span class="val_no val3d4" title="4分">4分</span><var class="blue">(已有888人评价)</var></span></li>
 			<li><label>运　　费：</label><span class="word">10元</span></li>
 			<li><label>库　　存：</label><span class="word" id="stockInventory">100</span><span class="word" >件</span></li>
 			<li><label>选择颜色：</label>
 				<div id="colors" class="pre spec">
-					<a onclick="colorToRed(this,9)" href="javascript:void(0)" title="西瓜红" class="changToRed"><img width="25" height="25" data-img="1" src="/res/img/pic/ppp00.jpg" alt="西瓜红 "><i>西瓜红</i></a>
+					<a onclick="colorToRed(this,9)" href="javascript:void(0)" title="蓝色" class="changToRed"><img width="25" height="25" data-img="1" src="/res/img/pic/ppp00.jpg" alt="蓝色 "><i>蓝色</i></a>
 					<a onclick="colorToRed(this,11)" href="javascript:void(0)" title="墨绿" class="changToWhite"><img width="25" height="25" data-img="1" src="/res/img/pic/ppp00.jpg" alt="墨绿 "><i>墨绿</i></a>
-					<a onclick="colorToRed(this,18)" href="javascript:void(0)" title="浅粉" class="changToWhite"><img width="25" height="25" data-img="1" src="/res/img/pic/ppp00.jpg" alt="浅粉 "><i>浅粉</i></a>
+					<a onclick="colorToRed(this,18)" href="javascript:void(0)" title="浅灰" class="changToWhite"><img width="25" height="25" data-img="1" src="/res/img/pic/ppp00.jpg" alt="浅灰 "><i>浅灰</i></a>
 				</div>
 			</li>
 			<li id="sizes"><label>尺　　码：</label>
@@ -181,60 +181,60 @@ function buy(){
 		<ul class="uls x_50x50">
 			<li>
 				<var class="sfont">1</var>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
 				<var class="sfont">2</var>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
 				<var class="sfont">3</var>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
@@ -244,50 +244,50 @@ function buy(){
 	<div class="box bg_white">
 		<ul class="uls x_50x50">
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>
 			<li>
-				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="依琦莲2014瑜伽服套装新" /></a>
+				<a href="#" title="富一代" target="_blank" class="pic"><img src="/res/img/pic/ppp.jpg" alt="花花公子男士长袖衬衫" /></a>
 				<dl>
 					<!-- dt 8个文字+... -->
-					<dt><a href="#" title="依琦莲2014瑜伽服套装新" target="_blank">依琦莲2014瑜伽服套装新</a></dt>
+					<dt><a href="#" title="花花公子男士长袖衬衫" target="_blank">花花公子男士长袖衬衫</a></dt>
 					<dd class="orange">￥120 ~ ￥150</dd>
 				</dl>
 			</li>

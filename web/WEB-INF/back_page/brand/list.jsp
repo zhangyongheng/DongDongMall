@@ -1,10 +1,10 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/back_page/head.jsp" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<title>babasport-list</title>
+
+<title>咚咚商城-list</title>
 </head>
 <body>
 <div class="box-positon">
@@ -132,7 +132,7 @@
 		<tr bgcolor="#ffffff" onmouseout="this.bgColor='#ffffff'" onmouseover="this.bgColor='#eeeeee'">
 			<td><input type="checkbox" value="1" name="ids"/></td>
 			<td align="center">1</td>
-			<td align="center">依琦莲</td>
+			<td align="center">花花公子</td>
 			<td align="center"><img width="40" height="40" src="/res/img/pic/ppp0.jpg"/></td>
 			<td align="center"></td>
 			<td align="center">99</td>
