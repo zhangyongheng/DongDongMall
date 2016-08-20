@@ -1,9 +1,9 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/back_page/head.jsp" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html >
+<html>
 <head>
-<title>babasport-list</title>
+<title>咚咚商城-list</title>
 </head>
 <body>
 <div class="box-positon">
@@ -32,7 +32,7 @@
 			<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 				<td><input type="checkbox" name="ids" value="73"/></td>
 				<td>20141028114308048</td>
-				<td align="center">西瓜红</td>
+				<td align="center">蓝色</td>
 				<td align="center">S</td>
 				<td align="center"><input type="text" id="m52" value="0.0" disabled="disabled" size="10"/></td>
 				<td align="center"><input type="text" id="p52" value="0.0" disabled="disabled" size="10"/></td>
@@ -46,7 +46,7 @@
 			<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 				<td><input type="checkbox" name="ids" value="73"/></td>
 				<td>20141028114308048</td>
-				<td align="center">西瓜红</td>
+				<td align="center">蓝色</td>
 				<td align="center">M</td>
 				<td align="center"><input type="text" id="m53" value="0.0" disabled="disabled" size="10"/></td>
 				<td align="center"><input type="text" id="p53" value="0.0" disabled="disabled" size="10"/></td>
@@ -60,7 +60,7 @@
 			<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 				<td><input type="checkbox" name="ids" value="73"/></td>
 				<td>20141028114308048</td>
-				<td align="center">西瓜红</td>
+				<td align="center">蓝色</td>
 				<td align="center">L</td>
 				<td align="center"><input type="text" id="m54" value="0.0" disabled="disabled" size="10"/></td>
 				<td align="center"><input type="text" id="p54" value="0.0" disabled="disabled" size="10"/></td>
@@ -74,7 +74,7 @@
 			<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 				<td><input type="checkbox" name="ids" value="73"/></td>
 				<td>20141028114308048</td>
-				<td align="center">西瓜红</td>
+				<td align="center">蓝色</td>
 				<td align="center">XL</td>
 				<td align="center"><input type="text" id="m55" value="0.0" disabled="disabled" size="10"/></td>
 				<td align="center"><input type="text" id="p55" value="0.0" disabled="disabled" size="10"/></td>
@@ -144,7 +144,7 @@
 			<tr bgcolor="#ffffff" onmouseover="this.bgColor='#eeeeee'" onmouseout="this.bgColor='#ffffff'">
 				<td><input type="checkbox" name="ids" value="73"/></td>
 				<td>20141028114308048</td>
-				<td align="center">浅粉</td>
+				<td align="center">浅灰</td>
 				<td align="center">S</td>
 				<td align="center"><input type="text" id="m60" value="0.0" disabled="disabled" size="10"/></td>
 				<td align="center"><input type="text" id="p60" value="0.0" disabled="disabled" size="10"/></td>
