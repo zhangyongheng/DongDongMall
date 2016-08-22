@@ -73,14 +73,11 @@ public class ProductController {
 
         FeatureQuery featureQuery = new FeatureQuery();
         List<Feature> featureList = featureService.getFeatureList(featureQuery);
-
         ColorQuery colorQuery = new ColorQuery();
         colorQuery.setStartRow(10);
         List<Color> colorList = colorService.getColorListWithPage(colorQuery);
-
         TypeQuery typeQuery = new TypeQuery();
         List<Type> typeList = typeService.getTypeList(typeQuery);
-
         List<Brand> brandList = brandService.getAll();
 
         model.addAttribute("featureList", featureList);
@@ -93,8 +90,7 @@ public class ProductController {
 
     @RequestMapping(value = "/product/add.do")
     public String add(Product product, Model model) {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyMMddHHmmyyYYY");
-        String no = dateFormat.format(new Date());
+        String no = new SimpleDateFormat("yyMMddHHmmyyYYY").format(new Date());
         product.setNo(no);
         productService.addProduct(product);
         Integer productId = product.getId();
