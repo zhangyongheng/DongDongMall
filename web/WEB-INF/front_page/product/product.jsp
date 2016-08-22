@@ -281,11 +281,7 @@ function login(){
 					<a href="javascript:void(0);" title="梵歌纳（vangona）">梵歌纳（vangona）</a>
 					<a href="javascript:void(0);" title="菩媞">菩媞</a>
 					<a href="javascript:void(0);" title="伽美斯（Jamars）">伽美斯（Jamars）</a>
-					<a href="javascript:void(0);" title="金啦啦">金啦啦</a>
-					<a href="javascript:void(0);" title="伊朵莲">伊朵莲</a>
-					<a href="javascript:void(0);" title="喜悦瑜伽">喜悦瑜伽</a>
 					<a href="javascript:void(0);" title="路伊梵（LEFAN）">路伊梵（LEFAN）</a>
-					<a href="javascript:void(0);" title="来尔瑜伽（LaiErYoGA）">来尔瑜伽（LaiErYoGA）</a>
 				</p></li>
 				<li><b>价格：</b><p>
 					<a href="javascript:void(0);" title="不限" class="here">不限</a>

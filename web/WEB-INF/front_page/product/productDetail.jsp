@@ -148,7 +148,7 @@ function buy(){
 	<div class="r" style="width: 640px">
 		<ul class="uls form">
 			<li><h2>花花公子男士长袖衬衫款 经典秋季长袖印花时尚商务棉衬衣85325</h2></li>
-			<li><label>巴  巴 价：</label><span class="word"><b class="f14 red mr">￥128.00</b>(市场价:<del>￥150.00</del>)</span></li>
+			<li><label>价　　格：</label><span class="word"><b class="f14 red mr">￥128.00</b>(市场价:<del>￥150.00</del>)</span></li>
 			<li><label>商品评价：</label><span class="word"><span class="val_no val3d4" title="4分">4分</span><var class="blue">(已有888人评价)</var></span></li>
 			<li><label>运　　费：</label><span class="word">10元</span></li>
 			<li><label>库　　存：</label><span class="word" id="stockInventory">100</span><span class="word" >件</span></li>
@@ -320,7 +320,7 @@ function buy(){
 			<div id="detailTab3" class="detail" style="display:none">
 
 	<pre class="f14">
-		上衣*1 裤子*1 抹胸*1 包装*1 
+		衬衫*1 赠品*1
 	</pre>
 
 			</div>

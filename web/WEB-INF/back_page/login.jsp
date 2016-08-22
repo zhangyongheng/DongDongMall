@@ -1,8 +1,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="/back_page/head.jsp" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html >
 <html>
 <head>
+    <link href="/res/css/admin.css" rel="stylesheet"/>
+    <link href="/res/common/css/theme.css" rel="stylesheet"/>
+    <link href="/res/common/css/jquery.validate.css" rel="stylesheet"/>
+    <link href="/res/common/css/jquery.treeview.css" rel="stylesheet"/>
+    <link href="/res/common/css/jquery.ui.css" rel="stylesheet"/>
+
+    <!-- <script src="/thirdparty/ckeditor/ckeditor.js" type="text/javascript"></script> -->
+    <!-- <script src="/thirdparty/My97DatePicker/WdatePicker.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="/res/fckeditor/fckeditor.js"></script>
+    <script src="/res/common/js/jquery.js" type="text/javascript"></script>
+    <script src="/res/common/js/jquery.ext.js" type="text/javascript"></script>
+    <script src="/res/common/js/jquery.form.js" type="text/javascript"></script>
+    <script src="/res/common/js/yongheng.js" type="text/javascript"></script>
+    <script src="/res/js/admin.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="/res/css/style.css"/>
 
     <title>JEECMS Administrator's Control Panel</title>
     <script type="text/javascript">
@@ -25,17 +43,14 @@
         .input {
             width: 150px;
             height: 17px;
-            border-top: 1px solid #404040;
-            border-left: 1px solid #404040;
-            border-right: 1px solid #D4D0C8;
-            border-bottom: 1px solid #D4D0C8;
+            border: 1px solid #404040;
+            border-right-color: #D4D0C8;
+            border-bottom-color: #D4D0C8;
         }
     </style>
 </head>
 <body>
 <form id="jvForm" action="login.do" method="post">
-    <#if returnUrl??><input type="hidden" name="returnUrl" value="${returnUrl}"/></#if>
-    <#if processUrl??><input type="hidden" name="processUrl" value="${processUrl}"/></#if>
     <table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
             <td height="200">&nbsp;</td>
@@ -65,39 +80,26 @@
                                 <tr>
                                     <td>
                                         <div>
-                                            <#if errors??>
-                                                <ul>
-                                                    <#list errors as error>
-                                                        <li>${error}</li>
-                                                    </#list>
-                                                </ul>
-                                            </#if>
                                         </div>
                                         <table width="100%" border="0" align="center" cellpadding="0" cellspacing="5">
                                             <tr>
-                                                <td width="91" height="40" align="right"><strong> <@s.m
-                                                    "login.username"/>ï¼</strong></td>
+                                                <td width="91" height="40" align="right"><strong> 用户名</strong></td>
                                                 <td width="211"><input type="input" id="username" name="username"
                                                                        vld="{required:true}" maxlength="100"
                                                                        class="input"/></td>
                                             </tr>
                                             <tr>
-                                                <td height="40" align="right"><strong><@s.m
-                                                    "login.password"/>ï¼</strong></td>
+                                                <td height="40" align="right"><strong>密码</strong></td>
                                                 <td><input name="password" type="password" id="password" maxlength="32"
                                                            vld="{required:true}" class="input"/></td>
                                             </tr>
-                                            <#if errorRemaining?? && errorRemaining
-                                            <
-                                            =0>
                                             <tr>
                                                 <td colspan="2" align="center"><img src="/captcha.svl"
                                                                                     onclick="this.src='/captcha.svl?d='+new Date()*1"/>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td height="40" align="right"><strong><@s.m
-                                                    "login.captcha"/>ï¼</strong></td>
+                                                <td height="40" align="right"><strong>验证码</strong></td>
                                                 <td><input name="captcha" type="text" id="captcha" vld="{required:true}"
                                                            class="input"/></td>
                                             </tr>
@@ -121,6 +123,5 @@
         </tr>
     </table>
 </form>
-<#include "/common/alert_message.html"/>
 </body>
 </html>

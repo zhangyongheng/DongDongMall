@@ -14,9 +14,9 @@
     />
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
-          p:mapperLocations="classpath:com/dongdongmall/core/dao/*.xml"
+          p:mapperLocations="classpath:com/dongdongmall/core/dao/*/*.xml"
           p:dataSource-ref="dataSource"
-          p:typeAliasesPackage="com/dongdongmall/core/bean"
+          p:typeAliasesPackage="com.dongdongmall.core.bean,com.dongdongmall.core.query"
     />
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"

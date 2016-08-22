@@ -1,8 +1,8 @@
 package com.dongdongmall.core.controller.admin;
 
-import com.dongdongmall.core.bean.Brand;
-import com.dongdongmall.core.bean.BrandQuery;
-import com.dongdongmall.core.service.BrandService;
+import com.dongdongmall.core.bean.product.Brand;
+import com.dongdongmall.core.query.product.BrandQuery;
+import com.dongdongmall.core.service.product.BrandService;
 import common.PageModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -63,6 +63,18 @@ public class BrandController {
         if (id != null) {
             brandService.removeBrand(id);
         }
+        return "redirect:list.do";
+    }
+
+    @RequestMapping(value = "brand/deleteBrands.do")
+    public String deleteBrands(int[] ids, String findName, Integer visit, Model model) {
+        model.addAttribute("name", findName);
+        model.addAttribute("visit", visit);
+
+        if (ids != null && ids.length > 0) {
+            brandService.removeBrands(ids);
+        }
+
         return "redirect:list.do";
     }
 

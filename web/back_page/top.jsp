@@ -42,8 +42,13 @@
         }
 
         .logo {
-            width: 215px;
-            height: 69px;
+            width:215px;
+            height: 75px;
+        }
+
+        .logo_img {
+            margin: 10px;
+            padding: 10px;
         }
 
         .topbg {
@@ -144,10 +149,10 @@
 <body>
 <div id="top">
     <div class="top">
-        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#6495ed">
             <tr>
                 <td width="215">
-                    <div class="logo"><img src="/res/img/pic/logo-1.png" width="215" height="69"/></div>
+                    <div class="logo"><img class="logo_img" src="/res/img/pic/logo-1.png"/></div>
                 </td>
                 <td valign="top">
                     <div class="topbg">

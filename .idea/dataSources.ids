@@ -9,14 +9,40 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
       <schema id="1" name="ddm"/>
       <table id="2" parent="1" name="test"/>
-      <column id="3" parent="2" name="id">
+      <table id="3" parent="1" name="brand"/>
+      <column id="4" parent="2" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)</data-type>
       </column>
-      <column id="4" parent="2" name="name">
+      <column id="5" parent="2" name="name">
         <data-type>varchar(20)</data-type>
       </column>
-      <key id="5" parent="2" name="PRIMARY">
+      <key id="6" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="7" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="8" parent="3" name="name">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="9" parent="3" name="img_url">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="10" parent="3" name="description">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="11" parent="3" name="sort">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="12" parent="3" name="is_visit">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="13" parent="3" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>
