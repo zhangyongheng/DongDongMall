@@ -18,7 +18,6 @@
     <script src="/res/common/js/jquery.ext.js" type="text/javascript"></script>
     <script src="/res/common/js/jquery.form.js" type="text/javascript"></script>
     <script src="/res/common/js/yongheng.js" type="text/javascript"></script>
-    <script src="/res/js/admin.js" type="text/javascript"></script>
 
     <link rel="stylesheet" href="/res/css/style.css"/>
     <style type="">
